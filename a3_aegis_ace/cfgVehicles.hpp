@@ -81,8 +81,13 @@ class CfgVehicles
 		};
 	};
 	class APC_Wheeled_01_base_F: Wheeled_APC_F{};
-	class B_APC_Wheeled_01_base_F: APC_Wheeled_01_base_F{};
-	class B_APC_Wheeled_01_cannon_F: B_APC_Wheeled_01_base_F
+	class APC_Wheeled_01_base_v2_F: APC_Wheeled_01_base_F
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret{};
+		};
+	class B_APC_Wheeled_01_cannon_v2_F: APC_Wheeled_01_base_v2_F
 	{
 		class Turrets: Turrets
 		{
@@ -118,7 +123,15 @@ class CfgVehicles
 			};
 		};
 	};
-	class APC_Tracked_03_base_F: Tank_F
+	class APC_Tracked_03_base_F: Tank_F{};
+	class APC_Tracked_03_base_v2_F: APC_Tracked_03_base_F
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret{};
+		};
+	};
+	class APC_Tracked_03_base_v2_F: APC_Tracked_03_base_F
 	{
 		class Turrets: Turrets
 		{
@@ -138,18 +151,13 @@ class CfgVehicles
 			};
 		};
 	};
-	class I_E_APC_tracked_03_base_F: APC_Tracked_03_base_F{};
-	class I_E_APC_tracked_03_cannon_F: I_E_APC_tracked_03_base_F
+	class I_E_APC_tracked_03_cannon_v2_F: APC_Tracked_03_base_v2_F
 	{
+		displayName = "FV510 Warrior";
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret
 			{
-				weapons[] =
-				{
-					autocannon_40mm_CTWS,
-					ACE_LMG_coax_L94A1_mem3
-				};
 				magazines[] =
 				{
 					mag_2(120Rnd_40mm_GPR_Tracer_Red_shells),
@@ -159,19 +167,45 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_A_APC_tracked_03_base_F: APC_Tracked_03_base_F{};
-	class B_A_APC_tracked_03_cannon_F: B_A_APC_tracked_03_base_F
+	class B_A_APC_tracked_03_cannon_F: APC_Tracked_03_base_v2_F
 	{
 		displayName = "FV510 Warrior";
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret
 			{
-				weapons[] =
+				magazines[] =
 				{
-					autocannon_40mm_CTWS,
-					ACE_LMG_coax_L94A1_mem3
+					mag_2(120Rnd_40mm_GPR_Tracer_Red_shells),
+					mag_2(80Rnd_40mm_APFSDS_Tracer_Red_shells),
+					mag_10(200Rnd_762x51_Belt_Red)
 				};
+			};
+		};
+	};
+	class B_A_APC_tracked_03_cannon_tna_F: APC_Tracked_03_base_v2_F
+	{
+		displayName = "FV510 Warrior";
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				magazines[] =
+				{
+					mag_2(120Rnd_40mm_GPR_Tracer_Red_shells),
+					mag_2(80Rnd_40mm_APFSDS_Tracer_Red_shells),
+					mag_10(200Rnd_762x51_Belt_Red)
+				};
+			};
+		};
+	};
+	class B_A_APC_tracked_03_cannon_wdl_F: APC_Tracked_03_base_v2_F
+	{
+		displayName = "FV510 Warrior";
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
 				magazines[] =
 				{
 					mag_2(120Rnd_40mm_GPR_Tracer_Red_shells),
