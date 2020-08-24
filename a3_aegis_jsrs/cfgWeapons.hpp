@@ -183,8 +183,8 @@ class CfgWeapons
 	// C-1911 .45 ACP
 	class hgun_C1911_F: Pistol_Base_F
 	{
-		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\C1911\C1911_dry",db-8,1,20};
-		reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\C1911\C1911_reload",db0,1,30};
+		drysound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\dry\acpc_dry.ogg",1.5,1,15};
+		reloadmagazinesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\reload\acpc_reload.ogg",2,1,35};
 		class Single: Mode_SemiAuto
 		{
 			class BaseSoundModeType;
@@ -209,8 +209,8 @@ class CfgWeapons
 	// G17 9 mm
 	class hgun_G17_F: Pistol_Base_F
 	{
-		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\G17\G17_dry",db-8,1,20};
-		reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\G17\G17_reload",db0,1,10};
+		drysound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\dry\p07_dry.ogg",1.5,1,15};
+		reloadmagazinesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\reload\p07_reload.ogg",2,1,35};
 		class Single: Mode_SemiAuto
 		{
 			class BaseSoundModeType;
@@ -235,8 +235,8 @@ class CfgWeapons
 	// Mk26 12.7 mm
 	class hgun_Mk26_F: Pistol_Base_F
 	{
-		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_dry",db-8,1,20};
-		reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\Mk26\Mk26_reload",db0,1,30};
+		drysound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\dry\4-five45_dry.ogg",1.5,1,15};
+		reloadmagazinesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\reload\4-five45_reload.ogg",2,1,35};
 		class Single: Mode_SemiAuto
 		{
 			class BaseSoundModeType;
@@ -250,24 +250,6 @@ class CfgWeapons
 			};
 		};
 	};
-	// RSh-42 12.7 mm
-	class hgun_Pistol_heavy_03_F: Pistol_Base_F
-	{
-		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_dry",db-8,1,20};
-		reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Pistols\MP412\MP412_reload",db0,1,30};
-		class Single: Mode_SemiAuto
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_Dp28_shot_soundset,
-					jsrs_12x7mm_reverb_soundset
-				};
-			};
-		};
-	};
 	// AK-12 5.45 mm
     class arifle_AK12_base_F: Rifle_Base_F
 	{
@@ -275,136 +257,7 @@ class CfgWeapons
 		class Burst;
 		class FullAuto;
 	};
-	class arifle_AK12_F: arifle_AK12_base_F{};
-	class arifle_AK12_545_F: arifle_AK12_F
-	{
-		class Single: Single
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-		class Burst: Burst
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-		class FullAuto: FullAuto
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-	};
-	class arifle_AK12_lush_F: arifle_AK12_base_F{};
-	class arifle_AK12_545_lush_F: arifle_AK12_lush_F
-	{
-		class Single: Single
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-		class Burst: Burst
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-		class FullAuto: FullAuto
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-	};
-	class arifle_AK12_arid_F: arifle_AK12_base_F{};
-	class arifle_AK12_545_arid_F: arifle_AK12_arid_F
+	class arifle_AK12_545_base_F: arifle_AK12_base_F
 	{
 		class Single: Single
 		{
@@ -468,136 +321,7 @@ class CfgWeapons
 		};
 	};
 	class arifle_AK12_GL_base_F: arifle_AK12_base_F{};
-	class arifle_AK12_GL_F: arifle_AK12_GL_base_F{};
-	class arifle_AK12_GL_545_F: arifle_AK12_GL_F
-	{
-		class Single: Single
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-		class Burst: Burst
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-		class FullAuto: FullAuto
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-	};
-	class arifle_AK12_GL_lush_F: arifle_AK12_GL_base_F{};
-	class arifle_AK12_GL_545_lush_F: arifle_AK12_GL_lush_F
-	{
-		class Single: Single
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-		class Burst: Burst
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-		class FullAuto: FullAuto
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-	};
-	class arifle_AK12_GL_arid_F: arifle_AK12_GL_base_F{};
-	class arifle_AK12_GL_545_arid_F: arifle_AK12_GL_arid_F
+	class arifle_AK12_GL_545_base_F: arifle_AK12_GL_base_F
 	{
 		class Single: Single
 		{
@@ -661,136 +385,7 @@ class CfgWeapons
 		};
 	};
 	class arifle_AK12U_base_F: arifle_AK12_base_F{};
-	class arifle_AK12U_F: arifle_AK12U_base_F{};
-	class arifle_AK12U_545_F: arifle_AK12U_F
-	{
-		class Single: Single
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-		class Burst: Burst
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-		class FullAuto: FullAuto
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-	};
-	class arifle_AK12U_lush_F: arifle_AK12U_base_F{};
-	class arifle_AK12U_545_lush_F: arifle_AK12U_lush_F
-	{
-		class Single: Single
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-		class Burst: Burst
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-		class FullAuto: FullAuto
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_soundset,
-					jsrs_7x62mm_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_ak74_shot_silenced_soundset,
-					jsrs_7x62mm_sd_reverb_soundset
-				};
-			};
-		};
-	};
-	class arifle_AK12U_arid_F: arifle_AK12U_base_F{};
-	class arifle_AK12U_545_arid_F: arifle_AK12U_arid_F
+	class arifle_AK12U_545_base_F: arifle_AK12U_base_F
 	{
 		class Single: Single
 		{
@@ -858,9 +453,8 @@ class CfgWeapons
 	{
 		soundBipodDown[] = {"\A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_down",db-3,1,20};
 		soundBipodUp[] = {"\A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_up",db-3,1,20};
-		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\L85A3\L85A3_dry",db-5,1,10};
-		reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\L85A3\L85A3_reload",db0,1,10};
-		changeFiremodeSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\L85A3\L85A3_firemode",db-15,1,5};
+		drysound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\dry\ctar_dry.ogg",1.5,1,15};
+		changefiremodesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\noises\ctar_firemode.ogg",1.25,1,15};
 		class Single: Mode_SemiAuto
 	  	{
 			class BaseSoundModeType;
@@ -909,9 +503,66 @@ class CfgWeapons
 			reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\L85A3\L85A3_UGL_reload",db-2,1,10};
 		};
 	};
+	// Mk17 7.62 mm
+	class arifle_SCAR_base_F: Rifle_Base_F
+	{
+		drysound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\dry\fs2000_dry.ogg",1.5,1,15};
+		reloadmagazinesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\reload\spar_reload.ogg",2,1,35};
+		changefiremodesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\noises\fs2000_firemode.ogg",1.25,1,25};
+		class Single: Mode_SemiAuto
+	  	{
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] =
+				{
+					jsrs_scarh_shot_soundset,
+					jsrs_7x62mm_reverb_soundset
+				};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundSetShot[] =
+				{
+					jsrs_scar_shot_silenced_soundset,
+					jsrs_7x62mm_sd_reverb_soundset
+				};
+			};
+	  	};
+	  	class FullAuto: Mode_FullAuto
+	  	{
+			class BaseSoundModeType;
+			class StandardSound: BaseSoundModeType
+			{
+				soundSetShot[] =
+				{
+					jsrs_scarh_shot_soundset,
+					jsrs_7x62mm_reverb_soundset
+				};
+			};
+			class SilencedSound: BaseSoundModeType
+			{
+				soundSetShot[] =
+				{
+					jsrs_scar_shot_silenced_soundset,
+					jsrs_7x62mm_sd_reverb_soundset
+				};
+			};
+	  	};
+	};
+	class arifle_SCAR_GL_base_F: arifle_SCAR_base_F
+	{
+		class EGLM: UGL_F
+		{
+			reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Rifles\SCAR\SCAR_UGL_reload",db-2,1,10};
+		};
+	};
 	// RPK 7.62 mm
 	class arifle_RPK_base_F: Rifle_Base_F
 	{
+		drysound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\dry\akm_dry.ogg",1.5,1,15};
+		reloadmagazinesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\reload\akm_reload.ogg",2,1,35};
+		changefiremodesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\noises\akm_firemode.ogg",1.25,1,25};
 		class Single: Mode_SemiAuto
 		{
 			class BaseSoundModeType;
@@ -1017,7 +668,7 @@ class CfgWeapons
 			{
 				soundSetShot[] =
 				{
-					jsrs_saiga12_shot_soundset,
+					jsrs_m590_shot_soundset,
 					jsrs_12x7mm_reverb_soundset
 				};
 			};
@@ -1141,9 +792,9 @@ class CfgWeapons
 	// MP7 4.6 mm
 	class SMG_04_base_F: Rifle_Short_Base_F
 	{
-		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG04\SMG04_dry",db-15,1,10};
-		reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG04\SMG04_reload",db0,1,30};
-		changeFiremodeSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\SMGs\SMG04\SMG04_firemode",db-10,1,5};
+		drysound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\dry\pdw_dry.ogg",1.5,1,15};
+		reloadmagazinesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\reload\pdw_reload.ogg",2,1,35};
+		changefiremodesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\noises\pdw_firemode.ogg",1.25,1,25};
 		class Single: Mode_SemiAuto
 		{
 			class BaseSoundModeType;
