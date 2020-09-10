@@ -3,18 +3,16 @@ class CfgPatches
 	class A3_Aegis_RUlegacy
 	{
 		author = $STR_A3_A_AveryTheKitty;
-		name = "Aegis - JSRS Compatibility Patch - Main Configuration";
+		name = "Aegis - Legacy Russians Patch - Main Configuration";
 		url = "";
 		requiredAddons[] =
 		{
 			A3_Aegis_Characters_F_Aegis,
-			A3_Characters_F_Enoch
+			A3_Characters_F_Enoch,
+            A3_Opf_Characters_F_Opf_Headgear
 		};
 		requiredVersion = 0.1;
-		units[] =
-		{
-			
-		};
-		weapons[] = {};
+		units[] = {/* Auto-compiled by pboProject */};
+		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };
