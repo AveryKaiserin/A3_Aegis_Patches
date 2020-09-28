@@ -2,7 +2,7 @@ class CfgWeapons
 {
     class LMG_RCWS;
 	class LMG_Minigun: LMG_RCWS
-	{
+	{ // fix for ACE + Aegis miniguns
 		magazines[] +=
 		{
 			200Rnd_762x51_Belt,

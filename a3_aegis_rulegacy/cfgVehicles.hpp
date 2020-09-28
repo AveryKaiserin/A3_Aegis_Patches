@@ -28,7 +28,7 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             ItemGPS,
             DefaultManLinkedItems,
@@ -36,7 +36,7 @@ class CfgVehicles
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             ItemGPS,
             DefaultManLinkedItems,
@@ -47,14 +47,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -64,14 +64,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -81,14 +81,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -98,14 +98,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -115,14 +115,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -132,14 +132,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -150,14 +150,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -167,14 +167,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -218,14 +218,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -235,14 +235,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -252,14 +252,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -269,14 +269,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_Green_F,
+            V_CarrierRigKBT_01_Olive_F,
             H_Tank_black_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_Green_F,
+            V_CarrierRigKBT_01_Olive_F,
             H_Tank_black_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -286,14 +286,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_paint_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_paint_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -390,14 +390,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -407,14 +407,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -425,14 +425,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -442,14 +442,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -459,14 +459,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -477,13 +477,13 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_camo_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_Green_F,
+            V_CarrierRigKBT_01_Olive_F,
             H_MilCap_taiga,
             DefaultManLinkedItems
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_Green_F,
+            V_CarrierRigKBT_01_Olive_F,
             H_MilCap_taiga,
             DefaultManLinkedItems
         };
@@ -492,14 +492,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_paint_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_paint_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -509,7 +509,7 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             ItemGPS,
             DefaultManLinkedItems,
@@ -517,7 +517,7 @@ class CfgVehicles
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             ItemGPS,
             DefaultManLinkedItems,
@@ -528,7 +528,7 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             O_R_UAVTerminal,
             DefaultManLinkedItems,
@@ -536,7 +536,7 @@ class CfgVehicles
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             O_R_UAVTerminal,
             DefaultManLinkedItems,
@@ -547,13 +547,13 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             DefaultManLinkedItems
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_taiga_F,
             DefaultManLinkedItems
         };
@@ -562,7 +562,7 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             G_AirPurifyingRespirator_02_olive_F,
             DefaultManCbrnLinkedItems,
@@ -570,7 +570,7 @@ class CfgVehicles
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             G_AirPurifyingRespirator_02_olive_F,
             DefaultManCbrnLinkedItems,
@@ -581,14 +581,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_paint_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_paint_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -604,14 +604,14 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -630,14 +630,14 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -648,14 +648,14 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -666,14 +666,14 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -684,14 +684,14 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -702,14 +702,14 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -728,14 +728,14 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -746,14 +746,14 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -784,14 +784,14 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -815,14 +815,14 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -833,14 +833,14 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -851,13 +851,13 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_Green_F,
+            V_CarrierRigKBT_01_Olive_F,
             H_MilCap_grn,
             DefaultManLinkedItems
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_Green_F,
+            V_CarrierRigKBT_01_Olive_F,
             H_MilCap_grn,
             DefaultManLinkedItems
         };
@@ -867,14 +867,14 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -885,14 +885,14 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_paint_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_paint_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -903,7 +903,7 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             ItemGPS,
             DefaultManLinkedItems,
@@ -911,7 +911,7 @@ class CfgVehicles
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             ItemGPS,
             DefaultManLinkedItems,
@@ -923,7 +923,7 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             ItemGPS,
             DefaultManLinkedItems,
@@ -931,7 +931,7 @@ class CfgVehicles
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_heavy_Green_F,
+            V_CarrierRigKBT_01_heavy_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             ItemGPS,
             DefaultManLinkedItems,
@@ -942,7 +942,7 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             G_AirPurifyingRespirator_02_olive_F,
             DefaultManCbrnLinkedItems,
@@ -950,7 +950,7 @@ class CfgVehicles
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
             G_AirPurifyingRespirator_02_olive_F,
             DefaultManCbrnLinkedItems,
@@ -961,14 +961,14 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_paint_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_paint_headset_F,
             DefaultManLinkedItems,
             NVGoggles_OPFOR
@@ -979,7 +979,7 @@ class CfgVehicles
         uniformClass = U_O_R_Gorka_01_brown_F;
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
 		    O_R_UavTerminal,
             DefaultManLinkedItems,
@@ -987,7 +987,7 @@ class CfgVehicles
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_F,
 		    O_R_UavTerminal,
             DefaultManLinkedItems,
@@ -998,13 +998,13 @@ class CfgVehicles
     {
         linkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             DefaultManLinkedItems
         };
         respawnLinkedItems[] =
         {
-            V_CarrierRigKBT_01_light_Green_F,
+            V_CarrierRigKBT_01_light_Olive_F,
             H_HelmetSpecter_cover_khaki_F,
             DefaultManLinkedItems
         };
