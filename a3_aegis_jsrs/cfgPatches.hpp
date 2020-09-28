@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Aegis - JSRS Compatibility Patch - Main Configuration";
-		url = "";
+		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=1863091313";
 		requiredAddons[] =
 		{
 			A3_Aegis_Sounds_F_Aegis,

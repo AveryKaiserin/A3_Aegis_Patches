@@ -13,16 +13,6 @@ class CfgAmmo
 		};
 	};
 */
-	class G_40mm_HE;
-	class G_25mm_HE: G_40mm_HE
-	{
-		SoundSetExplosion[] =
-		{
-			jsrs_grenade_explosion_soundset,
-			jsrs_40mm_explosion_stereo_soundset,
-			jsrs_small_explosion_reverb_soundset
-		};
-	};
 	class RocketBase;
 	class M_SPG9_HEAT: RocketBase
 	{

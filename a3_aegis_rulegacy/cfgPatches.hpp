@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Aegis - Legacy Russians Patch - Main Configuration";
-		url = "";
+		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=2057914667";
 		requiredAddons[] =
 		{
 			A3_Aegis_Characters_F_Aegis,

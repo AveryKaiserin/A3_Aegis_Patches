@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author = $STR_A3_A_AveryTheKitty;
 		name = "Atlas - JSRS Compatibility Patch - Main Configuration";
-		url = "";
+		url = "https://steamcommunity.com/sharedfiles/filedetails/?id=1898752219";
 		requiredAddons[] =
 		{
 			A3_Atlas_Sounds_F_Atlas,
