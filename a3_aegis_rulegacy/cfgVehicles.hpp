@@ -366,7 +366,7 @@ class CfgVehicles
             NVGoggles_OPFOR
         };
     };
-    class Aegis_O_R_helicrew_F: O_R_helipilot_F
+    class Aegis_O_R_helicrew_F: O_R_Soldier_Base_F
     {
         uniformClass = U_O_R_Gorka_01_black_F;
         linkedItems[] =
@@ -539,7 +539,7 @@ class CfgVehicles
             NVGoggles_OPFOR
         };
     };
-    class Aegis_O_R_Soldier_unarmed_F: O_R_Soldier_F
+    class Aegis_O_R_Soldier_unarmed_F: Aegis_O_R_Soldier_F
     {
         linkedItems[] =
         {
@@ -554,7 +554,7 @@ class CfgVehicles
             DefaultManLinkedItems
         };
     };
-    class Aegis_O_R_Soldier_CBRN_F: O_R_Soldier_F
+    class Aegis_O_R_Soldier_CBRN_F: Aegis_O_R_Soldier_F
     {
         linkedItems[] =
         {
@@ -573,7 +573,7 @@ class CfgVehicles
             NVGoggles_OPFOR
         };
     };
-    class Aegis_O_R_RadioOperator_F: O_R_Soldier_F
+    class Aegis_O_R_RadioOperator_F: Aegis_O_R_Soldier_F
     {
         linkedItems[] =
         {
