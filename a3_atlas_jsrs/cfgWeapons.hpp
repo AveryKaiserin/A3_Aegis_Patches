@@ -4,7 +4,7 @@ class CfgWeapons
 	class UGL_F;
 	// AUG 5.56 mm
     /*
-	class Atlas_arifle_AUG_base_F: Rifle_Base_F
+	class arifle_AUG_base_F: Rifle_Base_F
 	{
 		drySound[] = {"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_dry",db-5,1,10};
 		reloadMagazineSound[] = {"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_reload",db0,1,10};
@@ -50,7 +50,7 @@ class CfgWeapons
 			};
 	  	};
 	};
-	class Atlas_arifle_AUG_GL_base_F: Atlas_arifle_AUG_base_F
+	class arifle_AUG_GL_base_F: arifle_AUG_base_F
 	{
 		class EGLM: UGL_F
 		{
@@ -59,7 +59,7 @@ class CfgWeapons
 	};
     */
 	// G36 6.5 mm
-	class Atlas_arifle_G36_base_F: Rifle_Base_F
+	class arifle_G36_base_F: Rifle_Base_F
 	{
 		drySound[] = {"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\G36\G36_dry",db-5,1,10};
 		reloadMagazineSound[] = {"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\G36\G36_reload",db0,1,10};
@@ -125,7 +125,7 @@ class CfgWeapons
 			};
 	  	};
 	};
-	class Atlas_arifle_G36_GL_base_F: Atlas_arifle_G36_base_F
+	class arifle_G36_GL_base_F: arifle_G36_base_F
 	{
 		class UGL: UGL_F
 		{

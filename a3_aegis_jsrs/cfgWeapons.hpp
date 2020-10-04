@@ -62,7 +62,7 @@ class CfgWeapons
 	class Rifle_Base_F;
 	class UGL_F;
 	// M32 40 mm
-	class Aegis_GL_M32_F: Rifle_Base_F
+	class GL_M32_F: Rifle_Base_F
 	{
 		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\GrenadeLaunchers\M32\M32_dry",db-8,1,20};
 		reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\GrenadeLaunchers\M32\M32_reload",db0,1,30};
@@ -80,7 +80,7 @@ class CfgWeapons
 		};
 	};
 	// Punisher 25 mm
-	class Aegis_GL_XM25_F: Rifle_Base_F
+	class GL_XM25_F: Rifle_Base_F
 	{
 		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\GrenadeLaunchers\XM25\XM25_dry",db-8,1,20};
 		reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\GrenadeLaunchers\XM25\XM25_reload",db0,1,30};
@@ -116,7 +116,7 @@ class CfgWeapons
 		};
 	};
 	// Warfare-50 12.7 mm
-	class Aegis_WF50_base_F: Rifle_Long_Base_F
+	class WF50_base_F: Rifle_Long_Base_F
 	{
 		soundBipodDown[] = {"\A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_down",db-3,1,20};
 		soundBipodUp[] = {"\A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_up",db-3,1,20};
@@ -165,7 +165,7 @@ class CfgWeapons
 	};
 	class Pistol_Base_F;
 	// C-1911 .45 ACP
-	class Aegis_hgun_C1911_F: Pistol_Base_F
+	class hgun_C1911_F: Pistol_Base_F
 	{
 		drysound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\dry\acpc_dry.ogg",1.5,1,15};
 		reloadmagazinesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\reload\acpc_reload.ogg",2,1,35};
@@ -191,7 +191,7 @@ class CfgWeapons
 		};
 	};
 	// G17 9 mm
-	class Aegis_hgun_G17_F: Pistol_Base_F
+	class hgun_G17_F: Pistol_Base_F
 	{
 		drysound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\dry\p07_dry.ogg",1.5,1,15};
 		reloadmagazinesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\reload\p07_reload.ogg",2,1,35};
@@ -217,7 +217,7 @@ class CfgWeapons
 		};
 	};
 	// Mk26 12.7 mm
-	class Aegis_hgun_Mk26_F: Pistol_Base_F
+	class hgun_Mk26_F: Pistol_Base_F
 	{
 		drysound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\dry\4-five45_dry.ogg",1.5,1,15};
 		reloadmagazinesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\reload\4-five45_reload.ogg",2,1,35};
@@ -241,7 +241,7 @@ class CfgWeapons
 		class Burst;
 		class FullAuto;
 	};
-	class Aegis_arifle_AK12_545_base_F: arifle_AK12_base_F
+	class arifle_AK12_545_base_F: arifle_AK12_base_F
 	{
 		class Single: Single
 		{
@@ -305,7 +305,7 @@ class CfgWeapons
 		};
 	};
 	class arifle_AK12_GL_base_F: arifle_AK12_base_F{};
-	class Aegis_arifle_AK12_GL_545_base_F: arifle_AK12_GL_base_F
+	class arifle_AK12_GL_545_base_F: arifle_AK12_GL_base_F
 	{
 		class Single: Single
 		{
@@ -369,7 +369,7 @@ class CfgWeapons
 		};
 	};
 	class arifle_AK12U_base_F: arifle_AK12_base_F{};
-	class Aegis_arifle_AK12U_545_base_F: arifle_AK12U_base_F
+	class arifle_AK12U_545_base_F: arifle_AK12U_base_F
 	{
 		class Single: Single
 		{
@@ -433,7 +433,7 @@ class CfgWeapons
 		};
 	};
 	// L85A3 6.5 mm
-	class Aegis_arifle_SA80_base_F: Rifle_Base_F
+	class arifle_SA80_base_F: Rifle_Base_F
 	{
 		soundBipodDown[] = {"\A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_down",db-3,1,20};
 		soundBipodUp[] = {"\A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_up",db-3,1,20};
@@ -480,7 +480,7 @@ class CfgWeapons
 			};
 	  	};
 	};
-	class Aegis_arifle_SA80_GL_base_F: Aegis_arifle_SA80_base_F
+	class arifle_SA80_GL_base_F: arifle_SA80_base_F
 	{
 		class EGLM: UGL_F
 		{
@@ -488,7 +488,7 @@ class CfgWeapons
 		};
 	};
 	// Mk17 7.62 mm
-	class Aegis_arifle_SCAR_base_F: Rifle_Base_F
+	class arifle_SCAR_base_F: Rifle_Base_F
 	{
 		drysound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\dry\fs2000_dry.ogg",1.5,1,15};
 		reloadmagazinesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\reload\spar_reload.ogg",2,1,35};
@@ -534,7 +534,7 @@ class CfgWeapons
 			};
 	  	};
 	};
-	class Aegis_arifle_SCAR_GL_base_F: Aegis_arifle_SCAR_base_F
+	class arifle_SCAR_GL_base_F: arifle_SCAR_base_F
 	{
 		class EGLM: UGL_F
 		{
@@ -542,7 +542,7 @@ class CfgWeapons
 		};
 	};
 	// RPK 7.62 mm
-	class Aegis_arifle_RPK_base_F: Rifle_Base_F
+	class arifle_RPK_base_F: Rifle_Base_F
 	{
 		drysound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\dry\akm_dry.ogg",1.5,1,15};
 		reloadmagazinesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\reload\akm_reload.ogg",2,1,35};
@@ -590,7 +590,7 @@ class CfgWeapons
 	};
 	class Rifle_Short_Base_F;
 	// AA-40 12G
-	class Aegis_sgun_AA40_F: Rifle_Short_Base_F
+	class sgun_AA40_F: Rifle_Short_Base_F
 	{
 		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Shotguns\AA12\AA12_dry",db-3,1,10};
 		reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Shotguns\AA12\AA12_reload",db0,1,10};
@@ -608,7 +608,7 @@ class CfgWeapons
 		};
 	};
 	// Bulldog 12G
-	class Aegis_sgun_KSG_F: Rifle_Short_Base_F
+	class sgun_KSG_F: Rifle_Short_Base_F
 	{
 		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Shotguns\KSG\KSG_dry",db-3,1,10};
 		reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Shotguns\KSG\KSG_reload",db0,1,10};
@@ -641,7 +641,7 @@ class CfgWeapons
 		};
 	};
 	// M4 SSAS 12G
-	class Aegis_sgun_M4_F: Rifle_Short_Base_F
+	class sgun_M4_F: Rifle_Short_Base_F
 	{
 		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Shotguns\M4_SSAS\M4_SSAS_dry",db-3,1,10};
 		reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Shotguns\M4_SSAS\M4_SSAS_reload",db0,1,10};
@@ -659,7 +659,7 @@ class CfgWeapons
 		};
 	};
 	// BK-153 12G
-	class Aegis_sgun_Mp153_black_F: Rifle_Base_F
+	class sgun_Mp153_black_F: Rifle_Base_F
 	{
 		drySound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Shotguns\MP153\MP153_dry",db-15,1,10};
 		reloadMagazineSound[] = {"\A3_Aegis\Sounds_F_Aegis\arsenal\weapons\Shotguns\MP153\MP153_reload",db0,1,10};
@@ -774,7 +774,7 @@ class CfgWeapons
 		class FullAuto: FullAuto{};
 	};
 	// MP7 4.6 mm
-	class Aegis_SMG_04_base_F: Rifle_Short_Base_F
+	class SMG_04_base_F: Rifle_Short_Base_F
 	{
 		drysound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\dry\pdw_dry.ogg",1.5,1,15};
 		reloadmagazinesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\reload\pdw_reload.ogg",2,1,35};
