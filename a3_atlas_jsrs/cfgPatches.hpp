@@ -9,6 +9,7 @@ class CfgPatches
 		{
 			A3_Atlas_Sounds_F_Atlas,
 			A3_Atlas_Weapons_F_Atlas,
+			A3_Atlas_Weapons_F_Atlas_Rifles_AUG,
 			A3_Atlas_Weapons_F_Atlas_Rifles_G36,
 			jsrs_soundmod_complete_edition
 		};

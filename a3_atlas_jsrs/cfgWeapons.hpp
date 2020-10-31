@@ -3,7 +3,6 @@ class CfgWeapons
 	class Rifle_Base_F;
 	class UGL_F;
 	// AUG 5.56 mm
-    /*
 	class arifle_AUG_base_F: Rifle_Base_F
 	{
 		drySound[] = {"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_dry",db-5,1,10};
@@ -57,7 +56,6 @@ class CfgWeapons
 			reloadMagazineSound[] = {"\A3_Atlas\Sounds_F_Atlas\arsenal\weapons\Rifles\AUG\AUG_UGL_reload",db-2,1,10};
 		};
 	};
-    */
 	// G36 6.5 mm
 	class arifle_G36_base_F: Rifle_Base_F
 	{
