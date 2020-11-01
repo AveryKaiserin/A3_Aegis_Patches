@@ -61,6 +61,33 @@ class CfgWeapons
 	};
 	class Rifle_Base_F;
 	class UGL_F;
+    class CannonCore;
+    class autocannon_Base_F;
+    class autocannon_30mm_Heli_Attack_03: CannonCore
+    {
+		class HE: autocannon_Base_F
+		{
+			class player: Mode_FullAuto
+			{
+                class BaseSoundModeType;
+                class StandardSound: BaseSoundModeType
+                {
+                    soundSetShot[] = {jsrs_autocannon_2_shot_soundset};
+                };
+			};
+		};
+		class AP: autocannon_Base_F
+		{
+			class player: Mode_FullAuto
+			{
+                class BaseSoundModeType;
+                class StandardSound: BaseSoundModeType
+                {
+                    soundSetShot[] = {jsrs_autocannon_2_shot_soundset};
+                };
+			};
+        };
+    };
 	// M32 40 mm
 	class GL_M32_F: Rifle_Base_F
 	{
@@ -164,32 +191,6 @@ class CfgWeapons
 		};
 	};
 	class Pistol_Base_F;
-	// C-1911 .45 ACP
-	class hgun_C1911_F: Pistol_Base_F
-	{
-		drysound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\dry\acpc_dry.ogg",1.5,1,15};
-		reloadmagazinesound[] = {"\jsrs_soundmod_complete\JSRS_Soundmod_Soundfiles\weapons\reload\acpc_reload.ogg",2,1,35};
-		class Single: Mode_SemiAuto
-		{
-			class BaseSoundModeType;
-			class StandardSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_acpc_shot_soundset,
-					jsrs_cal45_reverb_soundset
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				soundSetShot[] =
-				{
-					jsrs_acpc_shot_silenced_soundset,
-					jsrs_cal45_sd_reverb_soundset
-				};
-			};
-		};
-	};
 	// G17 9 mm
 	class hgun_G17_F: Pistol_Base_F
 	{
