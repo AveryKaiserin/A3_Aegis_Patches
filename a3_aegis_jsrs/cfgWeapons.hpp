@@ -787,7 +787,7 @@ class CfgWeapons
 			{
 				soundSetShot[] =
 				{
-					jsrs_ad97_shot_soundset,
+					jsrs_protc_shot_soundset,
 					jsrs_5x56mm_reverb_soundset,
 					jsrs_all_dist_tail
 				};
@@ -796,7 +796,7 @@ class CfgWeapons
 			{
 				soundSetShot[] =
 				{
-					jsrs_ad97_shot_silenced_soundset,
+					jsrs_protc_shot_silenced_soundset,
 					jsrs_5x56mm_sd_reverb_soundset
 				};
 			};
@@ -808,7 +808,7 @@ class CfgWeapons
 			{
 				soundSetShot[] =
 				{
-					jsrs_ad97_shot_soundset,
+					jsrs_protc_shot_soundset,
 					jsrs_5x56mm_reverb_soundset,
 					jsrs_all_dist_tail
 				};
@@ -817,7 +817,7 @@ class CfgWeapons
 			{
 				soundSetShot[] =
 				{
-					jsrs_ad97_shot_silenced_soundset,
+					jsrs_protc_shot_silenced_soundset,
 					jsrs_5x56mm_sd_reverb_soundset
 				};
 			};
